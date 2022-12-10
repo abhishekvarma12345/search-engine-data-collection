@@ -12,6 +12,7 @@ s3 = S3Connection()
 
 choices = {}
 
+
 # Fetch All Labels
 @app.get("/fetch")
 def fetch_label():
